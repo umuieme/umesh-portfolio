@@ -1,6 +1,7 @@
 import { HERO } from "@/lib/constant";
 import Avatar from "./Avatar";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github01FreeIcons, HugeiconsFreeIcons, Linkedin01FreeIcons, Mail01FreeIcons } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 
 export default function Hero() {
     return (
@@ -22,14 +23,23 @@ export default function Hero() {
                 </a>
 
                 <div className="flex justify-center md:justify-start gap-6 text-gray-400">
-                    <a href="https://github.com/yourusername" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                        <Github size={24} />
+                    <a href="https://github.com/umuieme" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                        <HugeiconsIcon
+                            icon={Github01FreeIcons}
+                            size={24}
+                        />
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                        <Linkedin size={24} />
+                    <a href="https://linkedin.com/in/umuieme" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <HugeiconsIcon
+                            icon={Linkedin01FreeIcons}
+                            size={24}
+                        />
                     </a>
-                    <a href="mailto:youremail@example.com" aria-label="Email">
-                        <Mail size={24} />
+                    <a href="mailto:basnet2umesh@gmail.com" aria-label="Email">
+                        <HugeiconsIcon
+                            icon={Mail01FreeIcons}
+                            size={24}
+                        />
                     </a>
                 </div>
             </div>

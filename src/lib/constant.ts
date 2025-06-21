@@ -7,7 +7,9 @@ export const HERO = {
 export const ABOUT_ME = {
     heading: "About Me",
     paragraphs: [
-        `I'm a passionate developer who loves building cross-platform apps using modern tools like Next.js, Flutter, and SwiftUI. Whether it's creating smart UI systems, backend APIs, or integrating machine learning features, I enjoy solving real-world problems with clean and scalable code.`,
-        `Currently, I'm working on a zero-code API builder, a real-time Flutter video blurring library, and an AI-powered ArtLens app. My portfolio reflects both my team work and solo efforts across mobile, web, and ML projects.`
+        `I'm a mobile-first developer with a strong foundation in Flutter and native Android development. I also have hands-on experience with iOS development using SwiftUI and some exposure to React Native.`,
+        `While my primary focus is mobile app development, I’m equally comfortable working on the backend — especially with Node.js and NestJS. I've built and deployed apps using cloud platforms like Appwrite and Firebase, enabling full-stack capabilities.`,
+        `Outside of production work, I love exploring new technologies. Recently, I've been diving into frontend development with Next.js, experimenting with Figma for design, and learning more about the growing world of AI/ML.`,
+        `I'm always excited to learn, build, and iterate on meaningful tech.`,
     ]
 };
