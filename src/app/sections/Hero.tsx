@@ -1,7 +1,7 @@
 import { HERO } from "@/lib/constant";
-import Avatar from "./Avatar";
 import { Github01FreeIcons, HugeiconsFreeIcons, Linkedin01FreeIcons, Mail01FreeIcons } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
+import Avatar from "../components/Avatar";
 
 export default function Hero() {
     return (

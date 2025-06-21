@@ -7,6 +7,8 @@
   --color-background: #0a0a0a;
   --color-foreground: #ffffff;
   --color-muted-foreground: #9CA3AF;
+  --color-secondary: #6366f1;
+  --color-secondary-hover: #4f46e5;
 }
 
 body {

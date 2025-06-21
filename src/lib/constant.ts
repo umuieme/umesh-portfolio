@@ -13,3 +13,21 @@ export const ABOUT_ME = {
         `I'm always excited to learn, build, and iterate on meaningful tech.`,
     ]
 };
+
+export const SKILLS = {
+  "Programming Languages": ["Swift", "Objective-C", "JavaScript", "Dart"],
+  "Mobile Development": [
+    "Flutter", "BLoC", "Provider", "Animation", "Drift", "SQLite",
+    "React Native", "Redux", "MobX", "React Navigation", "Apollo GraphQL",
+    "iOS Development", "Xcode", "Instruments", "Push Notifications", "Background Tasks"
+  ],
+  "Backend & APIs": ["RESTful APIs", "GraphQL", "SQLite"],
+  "Tools & Collaboration": [
+    "Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Scrum", "Agile", "Codemagic", "Bitrise"
+  ],
+  "Testing": [
+    "Test Cases", "Test Strategy", "Automated Testing", "Selenium", "Unit Testing", "UI Testing", "Integration Testing"
+  ],
+  "UI/UX": ["Material Design Guidelines", "Human Interface Guidelines"]
+};
+
