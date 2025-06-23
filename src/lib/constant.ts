@@ -221,4 +221,11 @@ export const EDUCATION = [
     },
 ];
 
-
+export const NAV_LINKS = [
+    { label: "Home", href: "#hero" },
+    { label: "About Me", href: "#about" },
+    { label: "Skills", href: "#skills" },
+    { label: "Experience", href: "#experience" },
+    { label: "Projects", href: "#projects" },
+    { label: "Education", href: "#education" },
+];

@@ -5,7 +5,7 @@ import Avatar from "../components/Avatar";
 
 export default function Hero() {
     return (
-        <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-black text-white">
+        <section id="hero" className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-black text-white">
             {/* Left content */}
             <div className="flex-1 flex flex-col gap-6 max-w-xl text-center md:text-left">
                 <h1 className="text-4xl font-bold">

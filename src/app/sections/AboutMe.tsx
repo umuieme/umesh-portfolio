@@ -5,7 +5,7 @@ import { SectionWrapper } from "../components/SectionWrapper";
 export default function AboutMe() {
 
     return (
-        <SectionWrapper id="anout-me">
+        <SectionWrapper id="about">
             <SectionTitle>{ABOUT_ME.heading}</SectionTitle>
             {ABOUT_ME.paragraphs.map((paragraph, index) => (
                 <p key={index} className="text-lg leading-relaxed text-muted-foreground mt-4 first:mt-0">

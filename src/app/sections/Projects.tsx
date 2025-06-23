@@ -94,7 +94,7 @@ export default function Projects() {
                     href="https://github.com/umuieme?tab=repositories"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary underline hover:text-primary/80"
+                    className="text-primary border border-primary/80 px-4 py-4 rounded-lg transition-colors hover:text-white hover:bg-primary"
                 >
                     View more projects on GitHub
                 </a>
