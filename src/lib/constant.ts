@@ -198,3 +198,27 @@ export const PROJECTS: ProjectType[] = [
 
 ];
 
+// lib/constant.ts
+
+export const EDUCATION = [
+    {
+        degree: "Enterprise Software Development",
+        institution: "Humber Polytechnic",
+        duration: "Jan 2025 - Aug 2025",
+        location: "Toronto, Canada",
+    },
+    {
+        degree: "Software and Information Systems Testing",
+        institution: "Fanshawe College",
+        duration: "Aug 2023 - Aug 2024",
+        location: "London, Canada",
+    },
+    {
+        degree: "Bachelor of Science in Computer Science and Information Technology",
+        institution: "Tribhuvan University",
+        duration: "Nov 2011 - Dec 2015",
+        location: "Kathmandu, Nepal",
+    },
+];
+
+
