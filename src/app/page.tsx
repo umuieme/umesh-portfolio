@@ -3,6 +3,7 @@
 import AboutMe from "./sections/AboutMe";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Experience />
+      <Projects />
     </main>
   );
 }

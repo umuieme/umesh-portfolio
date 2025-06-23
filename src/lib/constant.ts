@@ -1,3 +1,4 @@
+import { ProjectType } from "./types";
 
 export const HERO = {
     name: "Umesh Basnet",
@@ -102,4 +103,98 @@ export const EXPERIENCE = [
     },
 ];
 
+export const PROJECTS: ProjectType[] = [
+    //   {
+    //     title: "Walking Buddy",
+    //     type: "Mobile App",
+    //     description:
+    //       "iOS app that connects users for real-time walking sessions using Firebase Auth, Firestore, and MapKit. Features include buddy matching, real-time location tracking, and emergency SOS features.",
+    //     tech: ["SwiftUI", "Firebase", "MapKit"],
+    //     tags: ["iOS", "SwiftUI", "Firebase", "Real-time", "Location", "Social"],
+    //     links: {
+    //       github: "https://github.com/yourusername/walking-buddy",
+    //     },
+    //   },
+    //   {
+    //     title: "ZeroCodeAPI",
+    //     type: "Frontend + Backend",
+    //     description:
+    //       "No-code backend generator using Next.js and MongoDB. Allows users to visually create REST APIs with schema-aware validation, CRUD endpoints, and data dashboards.",
+    //     tech: ["Next.js", "TailwindCSS", "MongoDB", "Zod"],
+    //     tags: ["Web", "No-code", "MongoDB", "REST API", "CRUD", "Admin"],
+    //     links: {
+    //       website: "https://zerocodeapi.dev",
+    //       github: "https://github.com/yourusername/zerocodeapi",
+    //     },
+    //   },
+    {
+        title: "EizoMushi",
+        tech: ["Flutter", "Dart", "REST API", "Video Playback"],
+        description:
+            "An anime streaming app built in Flutter, featuring video playback, browsing via REST API, and styled custom UI.",
+        type: "mobile",
+        tags: ["Flutter", "Streaming", "Video", "Anime", "Dart", "REST API", "Flutter BLoC", "Hive"],
+        links: {
+            github: "https://github.com/umuieme/EizoMushi",
+        },
+    },
+    {
+        title: "AstroGlance",
+        tech: ["SwiftUI", "iOS", "NASA API", "ARKit", "WidgetKit", "AI Summary"],
+        description:
+            "An iOS app that displays NASA's Astronomy Picture of the Day (APOD) with offline caching, AI-generated summaries, interactive timeline, and ARKit support.",
+        type: "mobile",
+        tags: [
+            "SwiftUI",
+            "iOS",
+            "NASA",
+            "APOD",
+            "ARKit",
+            "WidgetKit",
+            "AI",
+            "Offline Support",
+            "Timeline",
+            "Swift"
+        ],
+        links: {
+            github: "https://github.com/umuieme/AstroGlance",
+        },
+    },
+    {
+        title: "Dumb Charades",
+        tech: ["Flutter", "Dart", "Riverpod", "AppWrite"],
+        description:
+            "A fun mobile game app developed in Flutter using Riverpod and Hooks for state management and UI optimization.",
+        type: "mobile",
+        tags: ["Flutter", "Riverpod", "Hooks", "Game", "Mobile", "Dart"],
+        links: {
+            playStore: "https://play.google.com/store/apps/details?id=com.umuieme.dumb_charades",
+        },
+    },
+    {
+        title: "Flutter RN Cleaner",
+        tech: ["Flutter", "Dart", "Shell Script"],
+        description:
+            "A cleanup script that recursively detects and cleans Flutter and React Native projects by removing build artifacts and dependencies to maintain project hygiene.",
+        type: "utility",
+        tags: ["Flutter", "React Native", "Cleaner", "Build", "Automation"],
+        links: {
+            github: "https://github.com/umuieme/flutter_rn_cleaner",
+        },
+    },
+    {
+        title: "Sudoku",
+        tech: ["Flutter", "Dart", "Riverpod", "Hooks"],
+        description:
+            "A Sudoku puzzle app built with Flutter, using Riverpod for state management and hooks for reactive UI components.",
+        type: "mobile",
+        tags: ["Flutter", "Dart", "Sudoku", "Puzzle", "Riverpod", "Hooks"],
+        links: {
+            github: "https://github.com/umuieme/sudoku",
+        },
+    }
+
+
+
+];
 
