@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section id="hero" className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-black text-white">
             {/* Left content */}
-            <div className="flex-1 flex flex-col gap-6 max-w-xl text-center md:text-left">
+            <div className="flex-1 flex flex-col gap-6 max-w-xl text-center md:text-left justify-center">
                 <h1 className="text-4xl font-bold">
                     {HERO.name}
                 </h1>
@@ -17,7 +17,7 @@ export default function Hero() {
 
                 <a
                     href="#projects"
-                    className="inline-block px-6 py-3 bg-primary text-black font-semibold rounded-lg shadow-md hover:bg-primary-dark transition"
+                    className="inline-block px-6 py-3 bg-primary text-black font-semibold rounded-lg shadow-md hover:bg-primary-dark transition text-center"
                 >
                     View Projects
                 </a>
@@ -42,12 +42,12 @@ export default function Hero() {
                         />
                     </a>
                 </div>
-            </div>
+            </div >
 
             {/* Right avatar */}
-            <div className="mt-10 md:mt-0 flex justify-center md:justify-end flex-1">
+            <div className="flex flex-1 mt-10 md:mt-0 md:ml-10 justify-center" >
                 <Avatar />
-            </div>
-        </section>
+            </div >
+        </section >
     );
 }
