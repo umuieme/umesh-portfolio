@@ -229,3 +229,11 @@ export const NAV_LINKS = [
     { label: "Projects", href: "#projects" },
     { label: "Education", href: "#education" },
 ];
+
+export const LOGOS = [
+  { name: "Flutter", src: "/logos/flutter.svg" },
+//   { name: "Android", src: "/logos/android.svg" },
+//   { name: "iOS", src: "/logos/ios.svg" },
+//   { name: "Node.js", src: "/logos/nodejs.svg" },
+//   { name: "NestJS", src: "/logos/NestJS.svg" },
+];

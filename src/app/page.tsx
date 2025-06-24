@@ -1,5 +1,6 @@
 // app/page.tsx (or pages/index.tsx depending on your setup)
 
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import AboutMe from "./sections/AboutMe";
 import Education from "./sections/Education";
@@ -19,6 +20,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Education />
+        <Footer />
       </main>
     </>
   );
