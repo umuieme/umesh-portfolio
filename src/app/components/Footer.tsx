@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="max-w-4xl mx-auto flex flex-col items-center gap-6">
                 {/* Invite / feedback text */}
                 <p className="text-center text-lg font-semibold max-w-md text-white/80">
-                    Let's talk tech, projects, or just say hi — open to feedback, collaborations, and cool ideas!
+                    Let&apos;s talk tech, projects, or just say hi — open to feedback, collaborations, and cool ideas!
 
                 </p>
 

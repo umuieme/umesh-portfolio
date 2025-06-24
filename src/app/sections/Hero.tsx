@@ -1,5 +1,5 @@
 import { HERO } from "@/lib/constant";
-import { Github01FreeIcons, HugeiconsFreeIcons, Linkedin01FreeIcons, Mail01FreeIcons } from "@hugeicons/core-free-icons";
+import { Github01FreeIcons, Linkedin01FreeIcons, Mail01FreeIcons } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import Avatar from "../components/Avatar";
 

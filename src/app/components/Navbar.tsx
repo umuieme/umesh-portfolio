@@ -1,9 +1,9 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { NAV_LINKS } from "@/lib/constant";
-import { Cancel01FreeIcons, Hamburger01FreeIcons, HugeiconsFreeIcons, Menu01Icon, Menu06FreeIcons, MenuCollapseFreeIcons } from "@hugeicons/core-free-icons";
+import { Cancel01FreeIcons, Menu01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import MobileMenu from "./MobileMenu";
 
@@ -39,10 +39,6 @@ export default function Navbar() {
             sections.forEach((section) => observer.unobserve(section));
         };
     }, []);
-
-    const handleNavClick = () => {
-        setMenuOpen(false);
-    }
 
     return (
         <header>
