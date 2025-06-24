@@ -2,16 +2,16 @@ import { ProjectType } from "./types";
 
 export const HERO = {
     name: "Umesh Basnet",
-    summary: "Mobile Developer working with Android, iOS, Flutter, React Native, and backend with Node.js & NestJS. Always eager to learn new tech."
+    summary: "A problem-solver first, a software developer second. I build for any screen or server, quickly adapting to new technologies. My current toolkit is diverse, including Flutter, React Native, iOS, Android, and NestJS, and I thrive on expanding it to deliver the best possible solution."
 }
 
 export const ABOUT_ME = {
     heading: "About Me",
     paragraphs: [
-        `I'm a mobile-first developer with a strong foundation in Flutter and native Android development. I also have hands-on experience with iOS development using SwiftUI and some exposure to React Native.`,
-        `While my primary focus is mobile app development, I’m equally comfortable working on the backend — especially with Node.js and NestJS. I've built and deployed apps using cloud platforms like Appwrite and Firebase, enabling full-stack capabilities.`,
-        `Outside of production work, I love exploring new technologies. Recently, I've been diving into frontend development with Next.js, experimenting with Figma for design, and learning more about the growing world of AI/ML.`,
-        `I'm always excited to learn, build, and iterate on meaningful tech.`,
+        `As a software developer, I thrive on building complete, end-to-end solutions that live on screens and servers alike. My expertise covers the full application lifecycle, from crafting intuitive mobile experiences using Flutter, native Android (Kotlin/Java), and SwiftUI, to engineering robust backend systems with Node.js and NestJS.`,
+        `My approach is to architect the right solution for the problem at hand. Whether that means deploying a full-stack application from scratch with cloud services like Firebase and Appwrite or integrating seamlessly with existing infrastructure, my focus is always on delivering a reliable and well-crafted product.`,
+        `This passion for building extends beyond my production work. I'm constantly exploring new domains to broaden my perspective, recently diving into frontend with Next.js, prototyping with Figma to bridge the gap between design and development, and exploring the fascinating world of AI/ML.`,
+        `Ultimately, I am driven by the process of learning, building, and iterating to create technology that makes a meaningful impact.`
     ]
 };
 
@@ -104,17 +104,17 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS: ProjectType[] = [
-    //   {
-    //     title: "Walking Buddy",
-    //     type: "Mobile App",
-    //     description:
-    //       "iOS app that connects users for real-time walking sessions using Firebase Auth, Firestore, and MapKit. Features include buddy matching, real-time location tracking, and emergency SOS features.",
-    //     tech: ["SwiftUI", "Firebase", "MapKit"],
-    //     tags: ["iOS", "SwiftUI", "Firebase", "Real-time", "Location", "Social"],
-    //     links: {
-    //       github: "https://github.com/yourusername/walking-buddy",
-    //     },
-    //   },
+    {
+        title: "Walking Buddy (WIP)",
+        type: "Mobile App",
+        description:
+            "iOS app that connects users for real-time walking sessions using Firebase Auth, Firestore, and MapKit. Features include buddy matching, real-time location tracking, and emergency SOS features.",
+        tech: ["SwiftUI", "Firebase", "MapKit"],
+        tags: ["iOS", "SwiftUI", "Firebase", "Real-time", "Location", "Social"],
+        links: {
+            github: "https://github.com/umuieme/GoForAWalk",
+        },
+    },
     //   {
     //     title: "ZeroCodeAPI",
     //     type: "Frontend + Backend",
@@ -231,9 +231,9 @@ export const NAV_LINKS = [
 ];
 
 export const LOGOS = [
-  { name: "Flutter", src: "/logos/flutter.svg" },
-//   { name: "Android", src: "/logos/android.svg" },
-//   { name: "iOS", src: "/logos/ios.svg" },
-//   { name: "Node.js", src: "/logos/nodejs.svg" },
-//   { name: "NestJS", src: "/logos/NestJS.svg" },
+    { name: "Flutter", src: "/logos/flutter.svg" },
+    //   { name: "Android", src: "/logos/android.svg" },
+    //   { name: "iOS", src: "/logos/ios.svg" },
+    //   { name: "Node.js", src: "/logos/nodejs.svg" },
+    //   { name: "NestJS", src: "/logos/NestJS.svg" },
 ];
