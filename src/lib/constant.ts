@@ -16,13 +16,14 @@ export const ABOUT_ME = {
 };
 
 export const SKILLS = {
-    "Programming Languages": ["Swift", "Objective-C", "JavaScript", "Dart"],
+    "Programming Languages": ["Swift", "Kotlin", "Java", "Dart", "JavaScript", "TypeScript"],
     "Mobile Development": [
-        "Flutter", "BLoC", "Provider", "Animation", "Drift", "SQLite",
+        "SwiftUI", "Android", "Kotlin Coroutines", "Room",
+        "Flutter", "BLoC", "Provider", "Drift", "SQLite",
         "React Native", "Redux", "MobX", "React Navigation", "Apollo GraphQL",
-        "iOS Development", "Xcode", "Instruments", "Push Notifications", "Background Tasks"
+        "Push Notifications", "Core Data", "Google Maps", "Firebase", "Appwrite"
     ],
-    "Backend & APIs": ["RESTful APIs", "GraphQL", "SQLite"],
+    "Backend & APIs": ["Node JS, NEST JS, RESTful APIs", "GraphQL", "MySQL", "Postgres", "MongoDB"],
     "Tools & Collaboration": [
         "Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Scrum", "Agile", "Codemagic", "Bitrise"
     ],
@@ -89,7 +90,7 @@ export const EXPERIENCE = [
         ],
     },
     {
-        role: "Mobile Developer",
+        role: "Sr. Mobile Developer",
         company: "Young Innovations Pvt Ltd",
         location: "Lalitpur, Nepal",
         period: "Sep 2015 - Nov 2020",
@@ -142,18 +143,13 @@ export const PROJECTS: ProjectType[] = [
         title: "AstroGlance",
         tech: ["SwiftUI", "iOS", "NASA API", "ARKit", "WidgetKit", "AI Summary"],
         description:
-            "An iOS app that displays NASA's Astronomy Picture of the Day (APOD) with offline caching, AI-generated summaries, interactive timeline, and ARKit support.",
+            "An iOS app that displays NASA's Astronomy Picture of the Day (APOD) with image download option",
         type: "mobile",
         tags: [
             "SwiftUI",
             "iOS",
             "NASA",
             "APOD",
-            "ARKit",
-            "WidgetKit",
-            "AI",
-            "Offline Support",
-            "Timeline",
             "Swift"
         ],
         links: {
