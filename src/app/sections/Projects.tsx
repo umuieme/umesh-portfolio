@@ -1,8 +1,6 @@
 import { PROJECTS } from "@/lib/constant";
 import SectionTitle from "../components/SectionTitle";
 import { SectionWrapper } from "../components/SectionWrapper";
-import { AppStoreFreeIcons, Github01FreeIcons, Globe02FreeIcons, PlayStoreFreeIcons } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
 import { ProjectType } from "@/lib/types";
 
 export default function Projects() {
