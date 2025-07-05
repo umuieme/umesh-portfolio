@@ -8,9 +8,9 @@ export const HERO = {
 export const ABOUT_ME = {
     heading: "About Me",
     paragraphs: [
-        `As a software developer, I thrive on building complete, end-to-end solutions that live on screens and servers alike. My expertise covers the full application lifecycle, from crafting intuitive mobile experiences using Flutter, native Android (Kotlin/Java), and SwiftUI, to engineering robust backend systems with Node.js and NestJS.`,
-        `My approach is to architect the right solution for the problem at hand. Whether that means deploying a full-stack application from scratch with cloud services like Firebase and Appwrite or integrating seamlessly with existing infrastructure, my focus is always on delivering a reliable and well-crafted product.`,
-        `This passion for building extends beyond my production work. I'm constantly exploring new domains to broaden my perspective, recently diving into frontend with Next.js, prototyping with Figma to bridge the gap between design and development, and exploring the fascinating world of AI/ML.`,
+        `I'm a problem-solver first, and a software developer second. My passion lies in building complete, end-to-end solutions that live on screens and servers alike..`,
+        `My expertise covers the full application lifecycle—from crafting intuitive mobile experiences using Flutter, native Android (Kotlin/Java), and SwiftUI, to engineering robust backend systems with Node.js and NestJS. I've had the privilege of not only building apps from scratch with services like Firebase and Appwrite, but also leading and mentoring development teams to deliver high-quality products.`,
+        `I believe technology is a craft. This belief pushes me to constantly explore new domains to broaden my perspective, whether that means prototyping in Figma, diving into frontend with Next.js, or exploring the fascinating world of AI/ML.`,
         `Ultimately, I am driven by the process of learning, building, and iterating to create technology that makes a meaningful impact.`
     ]
 };
@@ -41,10 +41,8 @@ export const EXPERIENCE = [
         period: "May 2024 - Dec 2024",
         website: "https://www.jdpower.com/",
         details: [
-            "Performed manual testing and wrote automation test scripts using Serenity BDD (Java) and Playwright in UI, API, and ETL components.",
-            "Collaborated with developers to identify bugs and track them effectively using JIRA.",
-            "Performed regression testing to ensure existing functionalities were unaffected.",
-            "Maintained over 98% test case pass rate across more than 6 components within the assigned delivery unit."
+            "Developed robust automation test scripts using Serenity BDD and Playwright for critical UI, API, and ETL components.",
+            "Maintained a >98% test case pass rate, contributing to stable release cycles through meticulous bug tracking and team collaboration in JIRA."
         ],
     },
     {
@@ -54,10 +52,8 @@ export const EXPERIENCE = [
         period: "Jan 2023 - Dec 2023",
         website: "https://www.hyteno.com/",
         details: [
-            "Analyzed business requirements and translated them into technical specifications for development teams.",
-            "Architected RESTful API and WebSocket communication for web and mobile platforms.",
-            "Collaborated closely with stakeholders to align project goals with company vision.",
-            "Participated in sprint planning, client meetings, and retrospectives."
+            "Translated complex business requirements into detailed architectural specifications to guide development teams and ensure project feasibility.",
+            "Architected and implemented scalable backend solutions, including RESTful APIs and real-time WebSocket communications for high-traffic platforms."
         ],
     },
     {
@@ -67,11 +63,9 @@ export const EXPERIENCE = [
         period: "Jul 2022 - Jul 2023",
         website: "https://webpoint.io/",
         details: [
-            "Led development of mobile apps using React Native and Flutter, focusing on code quality and performance optimization.",
-            "Facilitated collaboration across designers, backend developers, and project managers.",
-            "Provided feedback on design and UI/UX to create user-friendly apps.",
-            "Contributed to API design and integration with RESTful backend services.",
-            "Developed CI/CD pipelines to automate deployments to Google Play and Apple App Store."
+            "Led the end-to-end development of cross-platform applications using Flutter and React Native, establishing best practices for code quality, testing, and performance.",
+            "Engineered and maintained CI/CD pipelines for both Google Play and the App Store, automating the deployment process and reducing manual release time by over 90%.",
+            "Drove technical strategy across the full stack, from contributing to backend API design to collaborating with designers on UI/UX implementation."
         ],
     },
     {
@@ -81,12 +75,10 @@ export const EXPERIENCE = [
         period: "Dec 2020 - Jun 2022",
         website: "https://codingmountain.com/",
         details: [
-            "Formed and led a mobile app department of 10+ individuals ensuring project delivery and client satisfaction.",
-            "Implemented clean code architecture and coding standards for maintainability and scalability.",
-            "Managed client interactions, quality testing, and project handovers.",
-            "Created prototypes for technical feasibility, facilitating quick client approvals.",
-            "Developed native Flutter libraries in Kotlin and Swift to improve performance and features.",
-            "Independently developed a macOS application enhancing company capabilities."
+            "Built and led a new mobile department of 10+ developers, establishing all development standards and authoring comprehensive technical documentation.",
+            "Secured a key client contract by rapidly engineering a high-fidelity Flutter POC in just 3 days, proving technical viability and business value.",
+            "Developed custom Flutter packages that invoked native Kotlin/Swift code to access platform-specific APIs and hardware features like AVFoundation.",
+            "Partnered with another engineer to build and launch the company's first native macOS desktop application, expanding its service offerings."
         ],
     },
     {
@@ -96,102 +88,124 @@ export const EXPERIENCE = [
         period: "Sep 2015 - Nov 2020",
         website: "https://younginnovations.com.np/",
         details: [
-            "Developed native Android apps using Java and Kotlin applying Clean Architecture principles.",
-            "Researched and integrated Flutter and React Native into production apps.",
-            "Led user testing, design thinking, and client training for user-centric projects.",
-            "Resolved customer issues by debugging and delivering defect fixes."
+            "Introduced and led the first implementation of Flutter in the company, researching, prototyping, and shipping production-ready cross-platform apps.",
+            "Architected a scalable, white-labeled platform using Android Product Flavors, successfully deploying customized apps for over 23 different municipalities.",
+            "Maintained mission-critical, enterprise Android applications using Java and Kotlin, achieving and sustaining a 99.9% crash-free rate."
         ],
     },
-];
-
+];;
 export const PROJECTS: ProjectType[] = [
+
     {
         title: "Walking Buddy (WIP)",
-        type: "Mobile App",
-        description:
-            "iOS app that connects users for real-time walking sessions using Firebase Auth, Firestore, and MapKit. Features include buddy matching, real-time location tracking, and emergency SOS features.",
-        tech: ["SwiftUI", "Firebase", "MapKit"],
+        type: "iOS App / Personal Project",
+        details: [
+            "Designing a social fitness app to connect users for real-time, synchronized walking sessions, promoting both health and safety.",
+            "Architected with a Firebase backend (Auth, Firestore) to manage user profiles, real-time matching, and live data streaming.",
+            "Integrated Apple's MapKit for live location tracking of both users on a shared map and implemented emergency SOS features."
+        ],
+        tech: ["SwiftUI", "Firebase", "MapKit", "CoreLocation"],
         tags: ["iOS", "SwiftUI", "Firebase", "Real-time", "Location", "Social"],
         links: {
             github: "https://github.com/umuieme/GoForAWalk",
         },
     },
-    //   {
-    //     title: "ZeroCodeAPI",
-    //     type: "Frontend + Backend",
-    //     description:
-    //       "No-code backend generator using Next.js and MongoDB. Allows users to visually create REST APIs with schema-aware validation, CRUD endpoints, and data dashboards.",
-    //     tech: ["Next.js", "TailwindCSS", "MongoDB", "Zod"],
-    //     tags: ["Web", "No-code", "MongoDB", "REST API", "CRUD", "Admin"],
-    //     links: {
-    //       website: "https://zerocodeapi.dev",
-    //       github: "https://github.com/yourusername/zerocodeapi",
-    //     },
-    //   },
     {
         title: "EizoMushi",
-        tech: ["Flutter", "Dart", "REST API", "Video Playback"],
-        description:
-            "An anime streaming app built in Flutter, featuring video playback, browsing via REST API, and styled custom UI.",
-        type: "mobile",
-        tags: ["Flutter", "Streaming", "Video", "Anime", "Dart", "REST API", "Flutter BLoC", "Hive"],
+        type: "Flutter App / Personal Project",
+        details: [
+            "Developed a feature-rich anime streaming client to demonstrate advanced Flutter capabilities in handling media and complex API data.",
+            "Implemented the BLoC pattern for predictable state management and utilized the Dio package for efficient data fetching from a RESTful API.",
+            "Engineered a custom video player with subtitle support and playback controls for a seamless streaming experience."
+        ],
+        tech: ["Flutter", "Dart", "BLoC", "Dio", "REST API"],
+        tags: ["Flutter", "Streaming", "Video", "Anime", "Dart", "REST API", "BLoC"],
         links: {
             github: "https://github.com/umuieme/EizoMushi",
         },
     },
     {
-        title: "AstroGlance",
-        tech: ["SwiftUI", "iOS", "NASA API", "ARKit", "WidgetKit", "AI Summary"],
-        description:
-            "An iOS app that displays NASA's Astronomy Picture of the Day (APOD) with image download option",
-        type: "mobile",
-        tags: [
-            "SwiftUI",
-            "iOS",
-            "NASA",
-            "APOD",
-            "Swift"
-        ],
-        links: {
-            github: "https://github.com/umuieme/AstroGlance",
-        },
-    },
-    {
         title: "Dumb Charades",
-        tech: ["Flutter", "Dart", "Riverpod", "AppWrite"],
-        description:
-            "A fun mobile game app developed in Flutter using Riverpod and Hooks for state management and UI optimization.",
-        type: "mobile",
-        tags: ["Flutter", "Riverpod", "Hooks", "Game", "Mobile", "Dart"],
+        type: "Flutter App / Published Game",
+        details: [
+            "A classic party game brought to mobile, designed with a focus on fun, intuitive UI and smooth animations in Flutter.",
+            "Utilized Riverpod and Flutter Hooks for highly efficient and reactive state management, ensuring the game timer, score, and turns update flawlessly.",
+            "Successfully published to the Google Play Store, demonstrating a full understanding of the app release lifecycle."
+        ],
+        tech: ["Flutter", "Dart", "Riverpod", "Hooks"],
+        tags: ["Flutter", "Riverpod", "Game", "Mobile", "Dart"],
         links: {
             playStore: "https://play.google.com/store/apps/details?id=com.umuieme.dumb_charades",
         },
     },
     {
         title: "Flutter RN Cleaner",
-        tech: ["Flutter", "Dart", "Shell Script"],
-        description:
-            "A cleanup script that recursively detects and cleans Flutter and React Native projects by removing build artifacts and dependencies to maintain project hygiene.",
-        type: "utility",
-        tags: ["Flutter", "React Native", "Cleaner", "Build", "Automation"],
+        type: "Developer Utility / Open Source",
+        details: [
+            "Created a command-line utility to solve a common developer problem: cleaning up bloated project directories to reclaim disk space.",
+            "Wrote a shell script that recursively detects and safely removes build artifacts and dependency caches for both Flutter and React Native projects.",
+            "Published as an open-source tool on GitHub to contribute to the developer community."
+        ],
+        tech: ["Shell Script", "Automation", "CLI"],
+        tags: ["Flutter", "React Native", "Cleaner", "Build", "Automation", "CLI"],
         links: {
             github: "https://github.com/umuieme/flutter_rn_cleaner",
         },
+
     },
     {
-        title: "Sudoku",
-        tech: ["Flutter", "Dart", "Riverpod", "Hooks"],
-        description:
-            "A Sudoku puzzle app built with Flutter, using Riverpod for state management and hooks for reactive UI components.",
-        type: "mobile",
-        tags: ["Flutter", "Dart", "Sudoku", "Puzzle", "Riverpod", "Hooks"],
+        title: "Youth Summit Field App",
+        type: "Flutter App (Professional Work)",
+        details: [
+            "Developed a real-time logistics and communication app to coordinate field activities and ensure team safety for hundreds of Youth Summit participants.",
+            "Engineered a live location-sharing feature, integrating the Google Maps API with real-time data from Firebase and leveraging the BLoC pattern to efficiently manage team locations."
+        ],
+        tech: ["Flutter", "Dart", "BLoC", "Firebase", "Google Maps API"],
+        tags: ["Flutter", "Real-time", "Location", "Firebase", "BLoC"],
+        links: {},
+    },
+    {
+        title: "Municipal Association of Nepal",
+        type: "Flutter App (Professional Work)",
+        details: [
+            "Built a centralized, informative mobile application providing citizens with access to public data and services across various municipalities in Nepal.",
+            "Designed a clean, intuitive user interface for displaying large sets of information, fetched dynamically from RESTful APIs."
+        ],
+        tech: ["Flutter", "Dart", "REST APIs"],
+        tags: ["Flutter", "Dart", "Public Sector", "Data"],
         links: {
-            github: "https://github.com/umuieme/sudoku",
+            appStore: "https://apps.apple.com/us/app/municipal-association-of-nepal/id1532738510",
+            playStore: "https://play.google.com/store/apps/details?id=np.org.muannepal"
         },
-    }
-
-
-
+    },
+    {
+        title: "Infrastructure Monitoring System (IMS)",
+        type: "Android App (Professional Work)",
+        details: [
+            "Architected a scalable, white-labeled civic-tech platform used to monitor public infrastructure projects across Nepal.",
+            "Leveraged Android Product Flavors to efficiently create, customize, and deploy unique versions of the application for more than 23 different municipalities.",
+            "Integrated the Google Maps API to provide citizens and officials with real-time visualization of project locations, progress, and feedback."
+        ],
+        tech: ["Native Android", "Java", "Android Product Flavors", "Google Maps API", "REST APIs"],
+        tags: ["Android", "Enterprise", "White-label", "Platform", "Maps", "Civic-Tech"],
+        links: {
+            playStore: "https://play.google.com/store/apps/details?id=com.yipl.infrastructuremonitoring.sanfebagar"
+        },
+    },
+    {
+        title: "Label STEP",
+        type: "Android App (Professional Work)",
+        details: [
+            "Developed a robust auditing application for field agents to conduct and manage supplier audits, replacing a manual, paper-based process.",
+            "Engineered a sophisticated offline-first architecture using Kotlin, Room, and Coroutines to ensure full functionality and data integrity in remote areas.",
+            "Designed a seamless data synchronization system that automatically queues and uploads large sets of audit data upon network reconnection."
+        ],
+        tech: ["Native Android", "Kotlin", "Room", "Coroutines", "Offline-first"],
+        tags: ["Android", "Enterprise", "Offline", "Data Sync", "Kotlin", "Audit"],
+        links: {
+            playStore: "https://play.google.com/store/apps/details?id=com.label.step",
+        },
+    },
 ];
 
 // lib/constant.ts

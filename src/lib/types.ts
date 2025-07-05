@@ -8,8 +8,8 @@ export type ProjectLinkTypes = {
 export type ProjectType = {
   title: string;
   type: "Mobile App" | "Frontend" | "Backend" | "Full Stack" | string;
-  description: string;
+  details: string[];
   tech: string[];
   tags: string[];
-  links?: ProjectLinkTypes;
+  links: ProjectLinkTypes;
 };
