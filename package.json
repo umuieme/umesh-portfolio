@@ -16,7 +16,7 @@
     "@hugeicons/core-free-icons": "^1.0.14",
     "@hugeicons/react": "^1.0.5",
     "@opennextjs/cloudflare": "^1.17.1",
-    "next": "15.3.8",
+    "next": "16.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
